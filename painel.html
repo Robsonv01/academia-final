@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Aluno | FORCE GYM</title>
+  <meta name="description" content="Painel do aluno da FORCE GYM com dados de plano, frequência, treino e agenda.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <main class="login-wrap" id="painelAluno">
+    <div class="container">
+      <section class="portal-card">
+        <div class="portal-top">
+          <div class="portal-user">
+            <div class="portal-avatar" id="avatarAluno">FG</div>
+            <div>
+              <span class="demo-badge">Área logada</span>
+              <h1 id="nomeAluno">Aluno</h1>
+              <p id="matriculaAluno">Matrícula</p>
+            </div>
+          </div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <a href="index.html" class="btn btn-outline">Voltar ao site</a>
+            <button id="sairBtn" class="btn">Sair</button>
+          </div>
+        </div>
+
+        <div class="portal-kpis">
+          <div class="kpi"><span class="tag">Plano</span><strong id="planoAluno">—</strong><p>Status <span class="status-ok">ativo</span></p></div>
+          <div class="kpi"><span class="tag">Vencimento</span><strong id="vencimentoAluno">—</strong><p>Próxima cobrança</p></div>
+          <div class="kpi"><span class="tag">Frequência</span><strong id="frequenciaAluno">—</strong><p>Check-ins contabilizados</p></div>
+          <div class="kpi"><span class="tag">Objetivo</span><strong id="objetivoAluno">—</strong><p>Meta principal</p></div>
+        </div>
+
+        <div class="portal-layout">
+          <section class="portal-section">
+            <h2 style="font-size:1.45rem; margin-bottom:12px;">Treino e acompanhamento</h2>
+            <ul class="portal-list">
+              <li><strong>Treino liberado:</strong> <span id="treinoAluno">—</span></li>
+              <li><strong>Avaliação física:</strong> <span class="status-ok">realizada e válida por 30 dias</span></li>
+              <li><strong>Próxima aula sugerida:</strong> Spinning – quarta às 19h30</li>
+              <li><strong>Recado da equipe:</strong> mantenha hidratação e compareça 10 minutos antes das aulas coletivas.</li>
+            </ul>
+          </section>
+          <aside class="portal-section">
+            <h2 style="font-size:1.45rem; margin-bottom:12px;">Situação financeira</h2>
+            <ul class="portal-list">
+              <li><strong>Mensalidade:</strong> <span class="status-ok">em dia</span></li>
+              <li><strong>Renovação automática:</strong> habilitada</li>
+              <li><strong>Benefícios:</strong> app do aluno, aulas coletivas e avaliação física</li>
+              <li><strong>Observação:</strong> painel demonstrativo para apresentação escolar</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </div>
+  
+    <div class="container" style="margin-top:18px;">
+      <div class="portal-card" style="padding:16px 20px;">
+        <p class="creditos-academicos" style="margin:0; text-align:center;">Projeto acadêmico desenvolvido por <strong>Robson Varela</strong> — IST Mecatrônica SENAI • Técnico em Desenvolvimento de Sistemas.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>

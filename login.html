@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Aluno – Login | FORCE GYM</title>
+  <meta name="description" content="Acesse a área do aluno da FORCE GYM com matrícula e senha para visualizar plano, frequência, vencimento e treino.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@500;700&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="FORCE GYM – Página inicial">
+        <img src="assets/img/logo.png" alt="Logotipo da academia FORCE GYM">
+        FORCE<span>GYM</span>
+      </a>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a href="aulas.html">Aulas</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="login.html" class="active">Área do Aluno</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contato.html" class="btn btn-outline nav-login">Contato</a>
+        <a href="https://wa.me/5554999990000" target="_blank" rel="noopener" class="btn nav-cta">WhatsApp</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+    </div>
+  </nav>
+
+  <main class="login-wrap login-font-fix">
+    <div class="container login-grid">
+      <section class="login-card reveal">
+        <span class="demo-badge">Novo diferencial do projeto</span>
+        <h1>Login da <span class="destaque">Área do Aluno</span></h1>
+        <p>Foi adicionada uma área de acesso estilo portal/SAEP para valorizar o trabalho. O aluno faz login com matrícula e senha para entrar no painel.</p>
+        <form id="formLogin" class="form login-form" style="margin-top:24px;">
+          <label for="matricula">Matrícula</label>
+          <input type="text" id="matricula" name="matricula" placeholder="Ex.: 2026001" required>
+
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+          <button type="submit" class="btn">Entrar no painel</button>
+          <p id="loginAviso" class="help">Use um dos acessos de demonstração ao lado.</p>
+        </form>
+      </section>
+
+      <aside class="portal-card reveal">
+        <span class="tag">Acessos de demonstração</span>
+        <h2 style="font-size:1.6rem; margin-bottom:10px;">Login e senha para teste</h2>
+        <ul class="login-list">
+          <li><strong>Matrícula:</strong> 2026001<br><strong>Senha:</strong> force123</li>
+          <li><strong>Matrícula:</strong> 2026002<br><strong>Senha:</strong> aluno123</li>
+        </ul>
+        <p style="margin-top:18px;">Esse acesso é demonstrativo e funciona em site estático, ideal para apresentar como diferencial no trabalho.</p>
+        <div style="margin-top:20px; padding:16px; border-radius:12px; background:rgba(255,255,255,0.03); border:1px solid var(--border);">
+          <strong style="display:block; margin-bottom:8px; font-family:var(--font-title); letter-spacing:1px;">O que o painel mostra</strong>
+          <p>Plano contratado, vencimento, frequência, treino liberado, status da avaliação física e lembretes de aulas.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+    <div class="container" style="margin-top:18px;">
+      <div class="portal-card" style="padding:16px 20px;">
+        <p class="creditos-academicos" style="margin:0; text-align:center;">Projeto acadêmico desenvolvido por <strong>Robson Varela</strong> — IST Mecatrônica SENAI • Técnico em Desenvolvimento de Sistemas.</p>
+      </div>
+    </div>
+
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/auth.js"></script>
+</body>
+</html>

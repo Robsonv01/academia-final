@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório Final - FORCE GYM</title>
+  <style>
+    @page { size: A4; margin: 18mm; }
+    body { font-family: Arial, Helvetica, sans-serif; color: #1a1a1a; line-height: 1.45; font-size: 11.2pt; }
+    h1,h2,h3 { margin: 0 0 8px; }
+    h1 { font-size: 22pt; color: #b00000; }
+    h2 { font-size: 15pt; color: #222; border-bottom: 2px solid #b00000; padding-bottom: 4px; margin-top: 22px; }
+    h3 { font-size: 12.5pt; color: #333; margin-top: 14px; }
+    p { margin: 7px 0; text-align: justify; }
+    .cover { padding: 24px; border: 2px solid #b00000; border-radius: 12px; background: #fff7f7; }
+    .muted { color: #555; }
+    .badge { display: inline-block; padding: 6px 10px; background: #b00000; color: white; border-radius: 999px; font-size: 9.5pt; margin-bottom: 10px; }
+    ul { margin-top: 6px; }
+    li { margin-bottom: 5px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #cfcfcf; padding: 8px; vertical-align: top; }
+    th { background: #f2f2f2; }
+    .small { font-size: 9pt; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .box { border: 1px solid #ddd; border-left: 4px solid #b00000; padding: 10px 12px; border-radius: 8px; background: #fafafa; }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="badge">Relatório final do projeto</div>
+    <h1>FORCE GYM – Criação de um Site Real, SEO e Análise de Resultados</h1>
+    <p><strong>Instituição:</strong> IST Mecatrônica SENAI – Caxias do Sul</p>
+    <p><strong>Área:</strong> Tecnologia e Mecatrônica</p>
+    <p><strong>Aluno:</strong> Robson Varela</p>
+    <p><strong>Curso:</strong> Técnico em Desenvolvimento de Sistemas</p>
+    <p><strong>Projeto:</strong> desenvolvimento de um site institucional para uma academia, com foco em divulgação, captação de contatos, aplicação de SEO e análise de resultados.</p>
+    <p><strong>Diferencial implementado:</strong> área do aluno com login e senha, funcionando como um portal demonstrativo no estilo SAEP/ambiente acadêmico, agregando valor à apresentação do projeto.</p>
+    <p class="muted">Este relatório foi estruturado com base nos itens exigidos pela atividade: pesquisa, público-alvo, concorrentes, planejamento, desenvolvimento, SEO, divulgação, métricas e análise final.</p>
+  </section>
+
+  <h2>1. Identificação do negócio e problema</h2>
+  <p>O projeto escolhido foi a <strong>FORCE GYM Academia</strong>, uma academia voltada para musculação, aulas coletivas, personal trainer, avaliação física e orientação de treino. O principal problema identificado foi a necessidade de ampliar a presença digital do negócio, facilitar o contato com potenciais alunos e tornar a academia mais fácil de ser encontrada por buscas locais.</p>
+  <p>Além disso, o site foi pensado para resolver dificuldades comuns do público: falta de informações claras sobre planos, horários, estrutura, localização e canais de atendimento.</p>
+
+  <h2>2. Público-alvo</h2>
+  <p>O público-alvo definido é formado por jovens e adultos entre 18 e 55 anos, moradores de Caxias do Sul/RS e região próxima, interessados em saúde, condicionamento físico, emagrecimento, hipertrofia e melhoria da qualidade de vida.</p>
+  <div class="grid2">
+    <div class="box">
+      <h3>Perfil principal</h3>
+      <ul>
+        <li>Pessoas iniciantes ou intermediárias em atividades físicas</li>
+        <li>Alunos com rotina corrida, que precisam de horários flexíveis</li>
+        <li>Clientes que pesquisam preços, localização e confiança antes de entrar em contato</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Buscas prováveis</h3>
+      <ul>
+        <li>academia em Caxias do Sul</li>
+        <li>musculação Caxias do Sul</li>
+        <li>academia perto de mim</li>
+        <li>aula experimental academia</li>
+        <li>personal trainer Caxias do Sul</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>3. Pesquisa de concorrentes</h2>
+  <p>Foi realizada uma análise de concorrentes que já possuem presença digital estruturada, como LT2FIT, Bluefit e Smart Fit, além de academias locais menores. Essa pesquisa mostrou que os principais diferenciais competitivos são SEO local forte, preço visível, botão de WhatsApp em destaque, fotos de qualidade e site responsivo.</p>
+  <table>
+    <thead>
+      <tr><th>Concorrente</th><th>Pontos fortes observados</th><th>Oportunidade para a FORCE GYM</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>LT2FIT</td><td>Site moderno, identidade visual forte e presença online consistente</td><td>Investir em visual profissional e destaque para CTA</td></tr>
+      <tr><td>Bluefit</td><td>Clareza de serviços e comunicação objetiva</td><td>Facilitar a leitura dos planos e modalidades</td></tr>
+      <tr><td>Smart Fit</td><td>Marca forte e navegação simples</td><td>Usar estrutura organizada e linguagem direta</td></tr>
+      <tr><td>Academias locais</td><td>Atendimento próximo e presença regional</td><td>Explorar SEO local e contato rápido por WhatsApp</td></tr>
+    </tbody>
+  </table>
+
+  <h2>4. Planejamento do site</h2>
+  <p>O objetivo principal do site é converter visitantes em contatos, principalmente por meio do WhatsApp. Por isso, o planejamento foi feito com foco em páginas objetivas, linguagem persuasiva, identidade visual forte e chamadas para ação distribuídas ao longo da navegação.</p>
+  <ul>
+    <li><strong>Página inicial:</strong> apresentação do negócio, estrutura, serviços, planos e depoimentos.</li>
+    <li><strong>Sobre:</strong> história, missão, visão, valores e equipe.</li>
+    <li><strong>Planos:</strong> valores e tabela comparativa.</li>
+    <li><strong>Aulas:</strong> modalidades e grade de horários.</li>
+    <li><strong>Contato:</strong> formulário com envio para WhatsApp, telefone, Instagram, e-mail e mapa.</li>
+    <li><strong>Área do aluno:</strong> login e painel demonstrativo como diferencial adicional.</li>
+  </ul>
+
+  <h2>5. Desenvolvimento e funcionamento</h2>
+  <p>O site foi desenvolvido em HTML, CSS e JavaScript, com layout responsivo para computador e celular. Também foi criada uma funcionalidade extra de login e senha para simular uma área do aluno, agregando valor tecnológico ao projeto.</p>
+  <table>
+    <thead>
+      <tr><th>Recurso</th><th>Como foi implementado</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Responsividade</td><td>Media queries e adaptação de layout para telas menores</td></tr>
+      <tr><td>Contato</td><td>Botões e formulário integrados ao WhatsApp</td></tr>
+      <tr><td>Identidade visual</td><td>Paleta escura com vermelho, estilo moderno de academia</td></tr>
+      <tr><td>Área do aluno</td><td>Página de login com matrícula e senha e painel demonstrativo protegido por sessão local</td></tr>
+      <tr><td>Navegação</td><td>Menu principal com acesso às páginas e à área logada</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Observação importante:</strong> o login e a senha não são exigidos pela atividade, mas foram adicionados como um diferencial opcional para enriquecer a apresentação do projeto.</p>
+
+  <h2>6. Estratégias de SEO aplicadas</h2>
+  <p>O projeto recebeu otimizações on-page para melhorar o posicionamento nos buscadores e a relevância local. Foram aplicadas palavras-chave em títulos, descrições, textos e imagens, além de organização semântica da estrutura da página.</p>
+  <ul>
+    <li>Uso de <strong>title</strong> e <strong>meta description</strong> únicos em cada página</li>
+    <li>Palavras-chave locais como “academia em Caxias do Sul” e “musculação Caxias do Sul”</li>
+    <li>Uso adequado de <strong>H1, H2 e H3</strong></li>
+    <li>Imagens com atributo <strong>alt</strong></li>
+    <li>Links canônicos</li>
+    <li>Dados estruturados em JSON-LD para negócio local do tipo HealthClub</li>
+    <li>Open Graph para compartilhamento em redes sociais</li>
+    <li>Imagens otimizadas para melhor velocidade</li>
+  </ul>
+
+  <h2>7. Publicação e divulgação</h2>
+  <p>Após o desenvolvimento, o site deve ser publicado em hospedagem online e divulgado nos canais onde o público-alvo já está presente. As principais estratégias previstas são compartilhamento em WhatsApp, Instagram, grupos locais, Google Meu Perfil e indexação no Google Search Console.</p>
+  <ul>
+    <li>Divulgação em grupos e contatos locais</li>
+    <li>Publicação do link na bio e stories do Instagram</li>
+    <li>Cadastro no Google Meu Perfil</li>
+    <li>Envio de sitemap ao Google Search Console</li>
+    <li>Uso de materiais impressos com o endereço do site</li>
+  </ul>
+
+  <h2>8. Métricas e análise de resultados</h2>
+  <p>As métricas mais importantes para esse projeto são visitantes, origem dos acessos, cliques no WhatsApp, cliques no Instagram, mensagens recebidas e conversões em matrículas ou pedidos de informações. Como a atividade exige análise de resultados, o ideal é usar ferramentas como Google Analytics 4 e Search Console logo após a publicação.</p>
+  <table>
+    <thead>
+      <tr><th>Métrica</th><th>Objetivo de acompanhamento</th><th>Ferramenta indicada</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Visitantes</td><td>Medir alcance do site</td><td>Google Analytics 4</td></tr>
+      <tr><td>Origem do tráfego</td><td>Descobrir se veio do Google, Instagram ou WhatsApp</td><td>Google Analytics 4</td></tr>
+      <tr><td>Cliques no WhatsApp</td><td>Medir intenção de contato</td><td>Google Tag Manager / evento</td></tr>
+      <tr><td>Cliques no Instagram</td><td>Avaliar interesse em acompanhar a marca</td><td>Google Analytics 4</td></tr>
+      <tr><td>Mensagens recebidas</td><td>Medir conversão real em leads</td><td>Controle manual / CRM</td></tr>
+    </tbody>
+  </table>
+
+  <h2>9. Respostas finais da atividade</h2>
+  <p><strong>Qual problema o projeto resolveu?</strong> Melhorou a presença digital da academia e organizou as informações principais em um único ambiente online.</p>
+  <p><strong>Quem é o público-alvo?</strong> Jovens e adultos de 18 a 55 anos interessados em saúde, treino, emagrecimento e condicionamento físico.</p>
+  <p><strong>Como os clientes podem encontrar o site?</strong> Por buscas no Google, Instagram, WhatsApp, indicação direta e SEO local.</p>
+  <p><strong>Quais estratégias de divulgação foram previstas?</strong> Redes sociais, grupos locais, Google Meu Perfil, Search Console e compartilhamento de link.</p>
+  <p><strong>Quais estratégias de SEO foram usadas?</strong> Títulos, meta descriptions, cabeçalhos, palavras-chave locais, imagens com alt, canônicos e dados estruturados.</p>
+  <p><strong>O site foi efetivo?</strong> Sim, porque atende os objetivos centrais da atividade: apresenta o negócio, facilita contato, usa SEO e ainda inclui um diferencial de área logada.</p>
+  <p><strong>O que pode melhorar?</strong> Publicação em domínio real, integração com banco de dados para login real, painel administrativo, métricas reais de acesso e formulários com backend.</p>
+
+  <h2>10. Conclusão</h2>
+  <p>O projeto FORCE GYM atende à proposta da atividade ao percorrer todas as etapas de um projeto digital real: escolha do negócio, definição de público, pesquisa de concorrentes, desenvolvimento do site, aplicação de SEO, proposta de divulgação e definição de métricas. Como diferencial adicional, foi implementada uma área do aluno com login e senha, demonstrando ampliação do escopo técnico além do mínimo exigido.</p>
+  <p class="small">Documento preparado para acompanhamento da atividade escolar “Criação de um Site Real, SEO e Análise de Resultados”, apresentado por Robson Varela no IST Mecatrônica SENAI – Caxias do Sul, no curso Técnico em Desenvolvimento de Sistemas.</p>
+</body>
+</html>
