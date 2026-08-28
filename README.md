@@ -159,21 +159,6 @@ Quantas pessoas entraram em contato? O objetivo do site foi alcançado?
 - Cadastrar o site no **Google Search Console** e enviar o sitemap.
 - Imprimir o endereço do site em panfletos e cartões de visita.
 
-## 🧠 7. Uso de Inteligência Artificial
 
-A IA foi usada como **ferramenta de apoio** (conforme permitido pela atividade): geração das imagens,
-sugestões de textos e estrutura, e explicações dos códigos. O aluno deve **compreender** cada parte:
-menu, responsividade, formulário → WhatsApp, SEO, contadores e animações.
-
----
-
-## 🛠️ Personalização (troque os dados fictícios pelos reais)
-
-- **WhatsApp/Telefone:** em todos os arquivos, troque `5554999990000` e `(54) 99999-0000` pelo número real
-  (formato: código do país + DDD + número, sem espaços).
-- **Instagram:** `https://instagram.com/forcegym` → perfil real.
-- **Endereço e mapa:** atualize o endereço no rodapé e o `q=` do iframe do Google Maps
-  (ex.: `https://www.google.com/maps?q=SEU+ENDEREÇO&output=embed`).
-- **Cores:** edite as variáveis `--red` e `--red-2` no topo do `assets/css/style.css`.
 
 Bons treinos! 💪
