@@ -1,6 +1,6 @@
 # 🏋️ FORCE GYM – Site da Academia (Projeto Escolar: Site Real, SEO e Análise de Resultados)
 
-Site completo de uma academia fictícia ("FORCE GYM") inspirado no visual moderno das academias estilo **LT2FIT**
+Site completo de uma academia fictícia ("FORCE GYM") inspirado no visual moderno das academias 
 (escuro com detalhes vermelhos), criado para a atividade **"Criação de um Site Real, SEO e Análise de Resultados"**.
 
 > ⚠️ **Importante:** a academia é um **projeto de estudo**. Nome, telefone, endereço e redes sociais são **fictícios**.
